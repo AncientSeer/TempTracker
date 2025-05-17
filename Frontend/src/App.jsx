@@ -1,11 +1,13 @@
 import React from 'react'
 import Weather from './components/Weather'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <>
-    <h1 class="header">Weather App</h1>
+    
     <div className='app'>
+      <Header/>
       <Weather/>
     </div>
     </>
